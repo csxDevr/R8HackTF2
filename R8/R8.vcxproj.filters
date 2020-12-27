@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CDraw.cpp">
+      <Filter>R8 reborn base\CDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="ESP.cpp">
+      <Filter>Cheats\ESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Cheats\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Aim.cpp">
+      <Filter>Cheats\Aim</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>R8 reborn base\Cache</Filter>
+    </ClCompile>
+    <ClCompile Include="HvH.cpp">
+      <Filter>Cheats\HvH</Filter>
+    </ClCompile>
+    <ClCompile Include="VMTHooks.cpp">
+      <Filter>R8 reborn base\VFuncs</Filter>
+    </ClCompile>
+    <ClCompile Include="Netvars.cpp">
+      <Filter>R8 reborn base\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Hooks\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawModelExecute.cpp">
+      <Filter>Hooks\DrawModelExecute</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Hooks\FrameStageNotify</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChan.cpp">
+      <Filter>Hooks\NetChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="Panels.cpp">
+      <Filter>Hooks\Panels</Filter>
+    </ClCompile>
+    <ClCompile Include="CMat.cpp">
+      <Filter>R8 reborn base\CMat</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderView.cpp">
+      <Filter>Hooks\RenderView</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>R8 reborn base\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitscan.cpp">
+      <Filter>R8 reborn base\Hitscan</Filter>
+    </ClCompile>
+    <ClCompile Include="CSignature.cpp">
+      <Filter>R8 reborn base\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>GUI\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="Styles.cpp">
+      <Filter>GUI\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>GUI\UI Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Cheats\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat.cpp">
+      <Filter>R8 reborn base\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualEffects.cpp">
+      <Filter>Cheats\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="R8_Convar.cpp">
+      <Filter>SDK\Convar</Filter>
+    </ClCompile>
+    <ClCompile Include="R8_cnetmessage.cpp">
+      <Filter>SDK\INetChannel</Filter>
+    </ClCompile>
+    <ClCompile Include="R8 KeyValues.cpp">
+      <Filter>SDK\KeyValues</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WeaponList.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraw.h">
+      <Filter>R8 reborn base\CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Cheats\ESP</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw utils.h">
+      <Filter>R8 reborn base\CDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Cheats\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Aim.h">
+      <Filter>Cheats\Aim</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray tracing.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.h">
+      <Filter>R8 reborn base\Cache</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity enums.h">
+      <Filter>SDK\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HvH.h">
+      <Filter>Cheats\HvH</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="VMTHooks.h">
+      <Filter>R8 reborn base\VFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>R8 reborn base\VFuncs</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>R8 reborn base\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Netvars.h">
+      <Filter>R8 reborn base\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_recv2.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dt_common2.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Hooks\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelExecute.h">
+      <Filter>Hooks\DrawModelExecute</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Hooks\FrameStageNotify</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChan.h">
+      <Filter>Hooks\NetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="Panels.h">
+      <Filter>Hooks\Panels</Filter>
+    </ClInclude>
+    <ClInclude Include="CMat.h">
+      <Filter>R8 reborn base\CMat</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderView.h">
+      <Filter>Hooks\RenderView</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>R8 reborn base\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CSignature.h">
+      <Filter>R8 reborn base\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>GUI\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="Styles.h">
+      <Filter>GUI\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBA images.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEnum.h">
+      <Filter>GUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>GUI\UI Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Cheats\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameEvents.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat.h">
+      <Filter>R8 reborn base\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualEffects.h">
+      <Filter>Cheats\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlMemory.h">
+      <Filter>SDK\CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="CUtlVector.h">
+      <Filter>SDK\CUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="platform.h">
+      <Filter>SDK\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitscan.h">
+      <Filter>R8 reborn base\Hitscan</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_inetchannel.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_bitbuf.h">
+      <Filter>SDK\bitbuf</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_cnetmessage.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_Convar.h">
+      <Filter>SDK\Convar</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_ICvar.h">
+      <Filter>SDK\Convar</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_inetchannelinfo.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_inetmessage.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_inetmsghandler.h">
+      <Filter>SDK\INetChannel</Filter>
+    </ClInclude>
+    <ClInclude Include="R8 KeyValues.h">
+      <Filter>SDK\KeyValues</Filter>
+    </ClInclude>
+    <ClInclude Include="R8 VGUI.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="R8_ITexture.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{ff0ff010-bc6d-4995-878c-b527d0182c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Headers">
+      <UniqueIdentifier>{79b023fd-cbc8-41db-bfda-b06ff3b945f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{2fe045a1-1957-42c1-9c5a-267571c6660d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Misc">
+      <UniqueIdentifier>{38b419c6-9c3a-4476-b2de-236ca0b8088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Aim">
+      <UniqueIdentifier>{0013ffd7-16c6-4975-9a5b-d7aeeb822dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\HvH">
+      <UniqueIdentifier>{10dee37f-44e6-4ec6-8ae8-68a8354344b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{8efa438f-6101-4c61-8f11-173cc4f3b2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Entity">
+      <UniqueIdentifier>{ed0f254c-0bbf-4cfd-891e-83c4ed0d6daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\KeyValues">
+      <UniqueIdentifier>{cd4e0b01-a5d0-4915-be48-7c9f0455e5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\INetChannel">
+      <UniqueIdentifier>{e4c53c8b-8c92-4ec1-9703-7ed16f79d869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Convar">
+      <UniqueIdentifier>{80518e81-c237-4334-853c-84e0e6288cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Controls">
+      <UniqueIdentifier>{aa6ecab4-0eed-4e9b-accf-374f0a63535d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Styles">
+      <UniqueIdentifier>{786d5d62-250c-4d84-966b-feaddd62892e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Menu">
+      <UniqueIdentifier>{3df46380-0163-439c-85f9-a48499c9d278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Headers">
+      <UniqueIdentifier>{23d9393a-1bdf-4e13-b4a8-809bbb861d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{436963cf-1092-4db3-a62b-2aca60496198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Client">
+      <UniqueIdentifier>{2d4d0236-4ce9-4cc3-a569-907cf7bd510b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\DrawModelExecute">
+      <UniqueIdentifier>{d1980988-3796-4829-8b10-dcd116e908e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\FrameStageNotify">
+      <UniqueIdentifier>{5500efab-8790-4f35-86b3-46914a283603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\NetChannel">
+      <UniqueIdentifier>{39f6b4f4-d8f4-48cb-8262-afbe436f4ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Panels">
+      <UniqueIdentifier>{1bf39202-c5ff-4ca9-bdcb-e7916d9b87df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\RenderView">
+      <UniqueIdentifier>{2f22d9e5-5fb6-4ae7-a245-b86437ceda78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\UI Editor">
+      <UniqueIdentifier>{2f19a74e-afed-443f-b9e6-dbfb08253687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\bitbuf">
+      <UniqueIdentifier>{b31d167e-6dee-4585-a965-c977073d5be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Trigger">
+      <UniqueIdentifier>{fc358ebc-b5a8-4645-8e38-d57a1032d640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\VFX">
+      <UniqueIdentifier>{01fe2960-833d-4e3c-a924-ba84905e133b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\CUtils">
+      <UniqueIdentifier>{34710875-dd34-4983-89a3-f115140a8a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\ESP">
+      <UniqueIdentifier>{8b27c98d-2be3-4944-8342-782595a5e898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base">
+      <UniqueIdentifier>{045d33f6-3e12-4b1b-b6fb-6fe82a578960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\VFuncs">
+      <UniqueIdentifier>{f005026b-db22-49d8-a66b-dc45af4cee9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\Offsets">
+      <UniqueIdentifier>{025d85a3-52fb-4a7d-997d-348e40f90cb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\CDraw">
+      <UniqueIdentifier>{885ef965-3064-4d12-8e9d-ab12c1de250f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\CMat">
+      <UniqueIdentifier>{629585c5-994a-4df2-a08f-88ce3d868eb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\Base">
+      <UniqueIdentifier>{451e78c2-1d79-4d28-8e1e-33d9be668ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\Hitscan">
+      <UniqueIdentifier>{a4c54cbd-c841-4857-8db2-b73590d040e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\Cache">
+      <UniqueIdentifier>{0a3b4d0c-61fe-4a87-b3eb-ee6816a07560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="R8 reborn base\Cheat">
+      <UniqueIdentifier>{d154af76-4fbb-4f94-8cf3-34566aaf0ae7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

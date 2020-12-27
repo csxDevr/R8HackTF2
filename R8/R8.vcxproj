@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{53348295-68AD-4FAE-8203-4B68A6C6A6E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>basehook</RootNamespace>
+    <ProjectName>r8 by csxDevr</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>pDebug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>r8_devenv</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;BASEHOOK_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <StackReserveSize>
+      </StackReserveSize>
+      <AddModuleNamesToAssembly>
+      </AddModuleNamesToAssembly>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Cheat.cpp" />
+    <ClCompile Include="Editor.cpp" />
+    <ClCompile Include="R8_cnetmessage.cpp" />
+    <ClCompile Include="R8_Convar.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="VisualEffects.cpp" />
+    <ClCompile Include="Hitscan.cpp" />
+    <ClCompile Include="Base.cpp" />
+    <ClCompile Include="CMat.cpp" />
+    <ClCompile Include="DrawModelExecute.cpp" />
+    <ClCompile Include="RenderView.cpp" />
+    <ClCompile Include="R8 KeyValues.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="NetChan.cpp" />
+    <ClCompile Include="Cache.cpp" />
+    <ClCompile Include="FrameStageNotify.cpp" />
+    <ClCompile Include="HvH.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Styles.cpp" />
+    <ClCompile Include="Aim.cpp" />
+    <ClCompile Include="CDraw.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="Netvars.cpp" />
+    <ClCompile Include="Panels.cpp" />
+    <ClCompile Include="CSignature.cpp" />
+    <ClCompile Include="VMTHooks.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CUtlVector.h" />
+    <ClInclude Include="platform.h" />
+    <ClInclude Include="CUtlMemory.h" />
+    <ClInclude Include="Editor.h" />
+    <ClInclude Include="Hitscan.h" />
+    <ClInclude Include="IGameEvents.h" />
+    <ClInclude Include="memalloc.h" />
+    <ClInclude Include="RenderView.h" />
+    <ClInclude Include="R8_bitbuf.h" />
+    <ClInclude Include="R8_Convar.h" />
+    <ClInclude Include="R8_inetmessage.h" />
+    <ClInclude Include="R8_inetmsghandler.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="VisualEffects.h" />
+    <ClInclude Include="R8_cnetmessage.h" />
+    <ClInclude Include="R8_ICvar.h" />
+    <ClInclude Include="R8_ITexture.h" />
+    <ClInclude Include="CMat.h" />
+    <ClInclude Include="DrawModelExecute.h" />
+    <ClInclude Include="Materials.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="R8 KeyValues.h" />
+    <ClInclude Include="Base.h" />
+    <ClInclude Include="Cheat.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="dt_common2.h" />
+    <ClInclude Include="dt_recv2.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="NetChan.h" />
+    <ClInclude Include="R8 VGUI.h" />
+    <ClInclude Include="Cache.h" />
+    <ClInclude Include="FrameStageNotify.h" />
+    <ClInclude Include="HvH.h" />
+    <ClInclude Include="R8_inetchannel.h" />
+    <ClInclude Include="R8_inetchannelinfo.h" />
+    <ClInclude Include="KeyEnum.h" />
+    <ClInclude Include="RGBA images.h" />
+    <ClInclude Include="Styles.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Aim.h" />
+    <ClInclude Include="CDraw.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Entity enums.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="Draw utils.h" />
+    <ClInclude Include="getvfunc.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="Netvars.h" />
+    <ClInclude Include="Panels.h" />
+    <ClInclude Include="Ray tracing.h" />
+    <ClInclude Include="CSignature.h" />
+    <ClInclude Include="studio.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="VMTHooks.h" />
+    <ClInclude Include="WeaponList.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
