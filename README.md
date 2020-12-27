@@ -1,3 +1,4 @@
-# R8HackTF2
-my reborn project on tf2 , the same R8TF2, only reborn version based on nacl, with changes in aimbot and hvh features
-coming soon after 30 november...
+# R8 HACK by csxDevr
+My reborn project for the game TF2 , now free open source base by http://csxdevrnull.usite.pro/
+If anything, this is a reborn version, not the usual R8, I'm not going to release it yet, it will remain a private version.
+Supported by csxGodmode and CSX Community [https://getze.xyz/csx] © 2011-2021.
